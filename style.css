@@ -6,12 +6,12 @@
 }
 
 body {
-    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-family: poppins, sans-serif;
     padding: 20px;
     color: var(--text-color);
     background-color: var(--background-color);
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1350px;
+    margin: 10px auto;
     overflow-x: hidden;
 }
 
@@ -25,7 +25,7 @@ header {
 .hero {
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .logo {
@@ -134,6 +134,7 @@ hr {
     background-color: var(--primary-color);
     color: rgb(255, 255, 255);
     box-shadow: 0 4px 15px rgba(255, 99, 71, 0.3);
+    font-weight: bold;
 }
 
 .btn-primary:hover {
@@ -147,6 +148,7 @@ hr {
     background-color: transparent;
     color: var(--text-color);
     border-color: black;
+    font-weight: bold;
 }
 
 .btn-secondary:hover {
@@ -179,6 +181,7 @@ hr {
 .delivery:hover{
     color: var(--primary-color);
     transform: translateY(-3px);
+    cursor: pointer;
 }
 .stats {
     display: grid;
