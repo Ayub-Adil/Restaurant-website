@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>DELICIOUS <span>BITES</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <button onclick="showSection('home')">Home</button>
+                <button onclick="showSection('menu')">Menu</button>
+                <button onclick="showSection('about')">About</button>
+                <button onclick="showSection('reviews')">Reviews</button>
+                <button onclick="showSection('location')">Location</button>
+                <button onclick="showSection('contact')">Contact</button>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section id="home" class="content-section">
+        <div class="hero">
+            <div class="content">
+                <h2>Experience the Taste of Excellence</h2>
+                <h1>Discover our <span>exquisite menu </span>and cozy ambiance.</h1>
+                <p>Join us for an unforgettable culinary journey that will tantalize your taste buds and create lasting
+                    memories.</p>
+                <div class="buttons">
+                    <a href="#menu" onclick="showSection('menu')" class="btn btn-primary">Explore Our Menu</a>
+                    <a href="#contact" onclick="showSection('contact')" class="btn btn-secondary">Reserve a Table</a>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="profile.png" alt="" />
+                <button onclick="showSection('contact')" class="delivery">Free Delivery</button>
+            </div>
+        </div>
+        <section class="stats">
+            <div class="stat-item">
+                <h3>500k+</h3>
+                <p>Happy Customers served worldwide</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>5/5</h3>
+                <p>Average Customer Rating</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>100+</h3>
+                <p>Delicious Dishes on our Menu</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>99%</h3>
+                <p>would recommend us to Friends and family</p>
+            </div>
+        </section>
+    </section>
+
+    <section id="menu" class="content-section">
+        <h2>Our Menu</h2>
+        <p>Delicious dishes coming soon...</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="content-section">
+        <h2>About</h2>
+        <p>
+            At Delicious Bites, we are passionate about creating unforgettable dining experiences. Our culinary team
+            crafts each dish with care, using the freshest ingredients to ensure every bite is a delight. Whether
+            you're joining us for a romantic dinner, a family gathering, or a casual meal with friends, we strive to
+            provide exceptional service and a warm, inviting atmosphere. Come and discover why our customers keep
+            coming back for more!
+        </p>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="content-section">
+        <h2>Reviews</h2>
+        <p>"The food was absolutely amazing! The flavors were perfectly balanced, and the presentation was
+            beautiful. I can't wait to come back and try more dishes!" - Sarah M.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="content-section">
+        <h2>Contact</h2>
+        <p>Email: example@email.com</p>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
