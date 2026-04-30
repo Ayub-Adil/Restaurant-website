@@ -14,3 +14,8 @@ function showSection(id) {
 window.onload = () => {
     showSection("home");
 };
+
+function showMessage() {
+    document.getElementById("msg").innerText = "Message sent successfully!";
+    setTimeout(() => {msg.innerText = "";}, 3000);
+}
