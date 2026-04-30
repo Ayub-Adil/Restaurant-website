@@ -240,6 +240,7 @@ hr {
     border-radius: 8px;
     padding: 15px;
     transition: 0.5s;
+    text-align: center;
 }
 
 .card:hover{
@@ -253,7 +254,7 @@ hr {
 }
 
 .card p{
-    font-size: medium;
+    font-size: large;
 }
 
 .card span{
@@ -278,4 +279,21 @@ hr {
     color: var(--text-color);
     cursor: pointer;
     margin-top: 30px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.rating {
+    color: gold;
+}
+
+.date {
+    font-size: 12px;
+    color: black;
+}
+
+.location, .about, .contact{
+    text-align: center;
 }
